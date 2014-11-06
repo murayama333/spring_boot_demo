@@ -1,0 +1,16 @@
+apply plugin: 'java'
+apply plugin: 'idea'
+apply plugin: 'application'
+
+mainClassName = "hello.SampleController"
+
+repositories {
+    mavenCentral()
+}
+
+
+dependencies {
+    compile "org.springframework.boot:spring-boot-starter-web:1.1.8.RELEASE"
+
+    testCompile "junit:junit:4.11"
+}
