@@ -1,13 +1,11 @@
 # Spring boot
 
-
-
 ## 動かし方
 
 ```
 % git clone https://github.com/murayama333/spring_boot_demo.git
 % cd spring_boot_demo.git
-% gradle run
+% ./gradlew build && java -jar build/libs/spring_boot_demo-0.1.0.jar
 :compileJava
 :processResources UP-TO-DATE
 :classes
